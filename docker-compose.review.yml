@@ -1,6 +1,3 @@
-name: wegotthis-demo 
-version: "3.9"
-
 services:
   # ---------------- core app ----------------
   backend:
