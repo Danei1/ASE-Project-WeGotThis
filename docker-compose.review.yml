@@ -1,7 +1,7 @@
 services:
   # ---------------- core app ----------------
   backend:
-    image: elDaniel/wegotthis-backend:latest
+    image: docker.io/elDaniel/wegotthis-backend:latest
     ports:
       - "8000:8000"
     depends_on:
@@ -13,7 +13,7 @@ services:
       - AWS_ENDPOINT=http://localstack:4566
 
   frontend:
-    image: elDaniel/wegotthis-frontend:latest
+    image: docker.io/elDaniel/wegotthis-frontend:latest
     ports:
       - "5173:5173"
     depends_on:
