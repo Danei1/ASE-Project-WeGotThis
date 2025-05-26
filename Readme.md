@@ -27,3 +27,17 @@ docker compose -f docker-compose.review.yml up -d
 * Frontend Url: [http://localhost:5173](http://localhost:5173)
 * MailDev Url: [http://localhost:1080](http://localhost:1080)
 * Github Repo Url: [https://github.com/hafizsheetab/ASE-Project-WeGotThis](https://github.com/hafizsheetab/ASE-Project-WeGotThis)
+
+### Docker Hub images
+Ready-made containers from a public Docker Hub namespace:
+
+| Service   | Image name                                                       |
+|-----------|------------------------------------------------------------------|
+| Frontend | `docker.io/eldaneil/wegotthis-frontend`                   |
+| Backend  | `docker.io/eldaneil/wegotthis-backend:latest`                    |
+
+Example:
+
+```bash
+# run the API locally
+docker run --rm -p 8000:8000 eldaniel/wegotthis-backend:latest
