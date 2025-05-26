@@ -4,7 +4,18 @@ This platform lets people post “help wanted” offers (e.g. dog-walking, child
 ## Overview
 All detailed design, architecture, and API information is maintained in this repo’s [wiki](https://github.com/hafizsheetab/ASE-Project-WeGotThis/wiki).  
 
-## Quick Start
+## Quick Start 
+### Run the demo locally
+```bash
+git clone https://github.com/hafizsheetab/ASE-Project-WeGotThis.git
+```
+```bash
+cd ASE-Project-WeGotThis
+```
+```bash
+docker compose -f docker-compose.review.yml up -d
+```
+### Development
 1. `bash build.sh`
 2. `docker compose up` 
 ### Profiles (Development)
